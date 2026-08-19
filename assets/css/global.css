@@ -1,0 +1,59 @@
+/* === reset básico === */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  min-height: 2000px; /*temporário*/
+}
+
+/* === HEADER === */
+#topo {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 80px;
+  background-color: var(--color-secondary);
+  border-bottom: 3px solid var(--color-primary);
+  z-index: 1000;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0px auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.logo-img {
+  width: 100px;
+}
+
+.nav-menu ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-menu a {
+  font-family: var(--font-subtitle);
+  font-size: 18px;
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+}
+
+.nav-menu a:hover {
+  color: var(--color-light);
+}
