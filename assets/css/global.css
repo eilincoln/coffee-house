@@ -9,7 +9,6 @@ body {
   font-family: var(--font-body);
   background-color: var(--color-light);
   color: var(--color-dark);
-  min-height: 2000px; /*temporário*/
 }
 
 /* === HEADER === */
