@@ -64,6 +64,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 60vh;
   margin-top: 80px;
   display: flex;
@@ -111,7 +112,7 @@ body {
 
 .info-bloco {
   width: 100%;
-  min-height: 400px;
+  min-height: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,40 +120,66 @@ body {
 
 .texto-bloco {
   background-color: var(--color-light);
-  padding: 60px 20px;
+  padding: 80px 20px;
 }
 
 .info-conteudo {
-  max-width: 800px;
+  max-width: 900px;
   text-align: center;
 }
 
 .info-conteudo h2 {
   font-family: var(--font-subtitle);
-  font-size: 32px;
-  color: var(--color-secondary);
-  margin-bottom: 20px;
-  letter-spacing: 1;
+  font-size: 28px;
+  color: var(--color-primary);
+  margin-bottom: 25px;
+  letter-spacing: 2px;
 }
 
 .info-conteudo p {
   font-family: var(--font-body);
-  font-size: 18px;
+  font-size: 15px;
   color: var(--color-gray);
   line-height: 1.8;
+  text-align: justify;
 }
 
 .imagem-bloco-1 {
   background-image: url("../images/parallax-imagem2.jpg");
-  background-position: center;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 .imagem-bloco-2 {
   background-image: url("../images/parallax-imagem3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.imagem-bloco-3 {
+  background-image: url("../images/parallax-imagem4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.frase-container {
+  background-color: rgba(96, 72, 41, 0.85);
+  padding: 20px 40px;
+  border-radius: 4px;
+  max-width: 80%;
+  text-align: center;
+}
+
+.frase-banner {
+  font-family: var(--font-title);
+  font-size: 24px;
+  font-style: italic;
+  color: var(--color-primary);
+  letter-spacing: 1px;
 }
