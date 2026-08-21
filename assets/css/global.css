@@ -341,12 +341,12 @@ footer {
 
 .btn-voltar-topo {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 40px;
+  right: 40px;
   background-color: var(--color-primary);
   color: var(--color-dark);
-  width: 45px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   text-decoration: none;
   font-size: 24px;
@@ -354,9 +354,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease;
-  z-index: 999;
+  z-index: 9999;
 }
 
 .btn-voltar-topo:hover {
