@@ -261,3 +261,110 @@ body {
   color: var(--color-light);
   line-height: 1.6;
 }
+
+/* === SEÇÃO HORÁRIOS === */
+#horarios {
+  background-color: var(--color-light);
+  padding: 80px 20px;
+  width: 100%;
+}
+
+.horarios-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#horarios h2 {
+  font-family: var(--font-title);
+  font-size: 32px;
+  color: var(--color-secondary);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.divisor-linha {
+  width: 80px;
+  height: 3px;
+  background-color: var(--color-primary);
+  margin: 0 auto 40px auto;
+}
+
+.lista-horarios {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-horarios li {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+  border-bottom: 1px dashed var(--color-muted);
+  font-size: 18px;
+}
+
+.lista-horarios li:last-child {
+  border-bottom: none;
+}
+
+.dia-semana {
+  font-family: var(--font-subtitle);
+  font-weight: bold;
+  color: var(--color-secondary);
+}
+
+.hora-funcionamento {
+  font-family: var(--font-body);
+  color: var(--color-gray);
+}
+
+/* === FOOTER === */
+footer {
+  background-color: var(--color-dark);
+  color: var(--color-muted);
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 4px solid var(--color-secondary);
+  position: relative;
+}
+
+.footer-container p {
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 2;
+}
+
+.autor-tag {
+  color: var(--color-primary);
+}
+
+.btn-voltar-topo {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: var(--color-primary);
+  color: var(--color-dark);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  z-index: 999;
+}
+
+.btn-voltar-topo:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-light);
+  transform: translateY(-5px);
+}
+
+html {
+  scroll-behavior: smooth;
+}
